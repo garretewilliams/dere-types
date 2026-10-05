@@ -1,0 +1,44 @@
+# Sadodere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/sadodere.md
+name: Sadodere
+category: dere-type
+definition: >-
+  A character archetype who expresses interest or affection through teasing, provocation
+  or playful control, taking evident enjoyment in flustering the person they care
+  about.
+core_traits:
+- playful provocation
+- confidence
+- enjoyment of teasing
+- desire for the upper hand
+- attentiveness to others' reactions
+behavioral_patterns:
+- teases, provokes or challenges
+- enjoys making others flustered
+- keeps control of the conversation
+- may become uncharacteristically sincere when caught off guard
+relationship_patterns:
+- affection may involve teasing or control
+- attention from a sadodere is often a sign of interest
+- the dynamic depends on the other person engaging with the teasing
+related_types:
+- kamidere
+- tsundere
+- yandere
+common_misconceptions:
+- A sadodere is cruel or abusive.
+- A sadodere's teasing means they dislike the person.
+- A sadodere is the same as a tsundere.
+term_origin:
+  components:
+  - part: sado
+    japanese: サド (sado)
+    meaning: sadist, short for sadisuto
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated
+  confidence: commonly-cited
+  note: >-
+    In this usage 'sado' refers to enjoyment of teasing, not to clinical or sexual
+    sadism.
+usage: niche

@@ -1,0 +1,41 @@
+# Deredere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/deredere.md
+name: Deredere
+category: dere-type
+definition: >-
+  A character archetype who is openly warm, cheerful and affectionate, expressing
+  care for others directly.
+core_traits:
+- openness
+- warmth
+- optimism
+- expressiveness
+- sincerity
+behavioral_patterns:
+- expresses affection and enthusiasm openly
+- is encouraging and supportive
+- tends to be friendly toward most people
+- shows feelings readily, including sadness or worry
+relationship_patterns:
+- affection is expressed openly and early
+- care is shown through words, attention and encouragement
+- depth comes from what the character cares about, not from hidden feelings
+related_types:
+- bakadere
+- dandere
+- yandere
+common_misconceptions:
+- A deredere is cheerful regardless of context.
+- A deredere has no negative emotions.
+- A deredere is the same as a bakadere.
+japanese: デレデレ
+term_origin:
+  components:
+  - part: deredere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated, fawning
+  confidence: established
+  note: >-
+    The ideophone itself is established Japanese; its use as the name of a character
+    type is fandom usage.
+usage: common

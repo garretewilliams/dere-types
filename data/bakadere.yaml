@@ -1,0 +1,40 @@
+# Bakadere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/bakadere.md
+name: Bakadere
+category: dere-type
+definition: >-
+  A character archetype who is naive, scatterbrained or clumsy and expresses affection
+  with energetic, unfiltered enthusiasm.
+core_traits:
+- naivety
+- clumsiness
+- energy
+- sincerity
+- lack of self-consciousness
+behavioral_patterns:
+- acts on impulse
+- misreads situations or takes things literally
+- creates comic chaos
+- expresses feelings without much subtlety
+relationship_patterns:
+- affection is expressed openly and without much subtlety
+- loyalty and sincerity are their strengths
+- others often look out for them
+related_types:
+- deredere
+- dandere
+- tsundere
+common_misconceptions:
+- A bakadere is unintelligent in every way.
+- A bakadere is only comic relief and has no depth.
+- A bakadere is the same as a deredere.
+term_origin:
+  components:
+  - part: baka
+    japanese: 馬鹿 (baka)
+    meaning: fool, silly
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated
+  confidence: commonly-cited
+usage: niche

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/garretewilliams/dere-types/blob/main/schema/dere-type.schema.json",
+  "title": "Dere type",
+  "description": "Machine-readable description of one dere character archetype. Dere types are fictional character archetypes and fandom terminology, not psychological categories.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "category",
+    "definition",
+    "core_traits",
+    "behavioral_patterns",
+    "relationship_patterns",
+    "related_types",
+    "common_misconceptions"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Canonical English spelling of the term, capitalized (e.g. 'Himedere').",
+      "pattern": "^[A-Z][a-z]+$"
+    },
+    "category": {
+      "const": "dere-type"
+    },
+    "definition": {
+      "type": "string",
+      "description": "One-sentence reference definition. Must match the Quick Definition on the type's page in types/.",
+      "minLength": 40,
+      "maxLength": 400
+    },
+    "core_traits": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 3,
+      "uniqueItems": true
+    },
+    "behavioral_patterns": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 3,
+      "uniqueItems": true
+    },
+    "relationship_patterns": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 2,
+      "uniqueItems": true
+    },
+    "related_types": {
+      "type": "array",
+      "description": "Slugs of related dere types. Each must have its own file in data/.",
+      "items": { "type": "string", "pattern": "^[a-z]+$" },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "common_misconceptions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 2,
+      "uniqueItems": true
+    },
+    "japanese": {
+      "type": "string",
+      "description": "Common Japanese spelling, usually katakana."
+    },
+    "term_origin": {
+      "type": "object",
+      "description": "How the name is commonly explained, and how certain that explanation is.",
+      "additionalProperties": false,
+      "required": ["components", "confidence"],
+      "properties": {
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["part", "meaning"],
+            "properties": {
+              "part": { "type": "string" },
+              "japanese": { "type": "string" },
+              "meaning": { "type": "string" }
+            }
+          },
+          "minItems": 1
+        },
+        "confidence": {
+          "type": "string",
+          "description": "established: documented in reference works. commonly-cited: widely repeated in fandom sources but not well documented. uncertain: sources disagree.",
+          "enum": ["established", "commonly-cited", "uncertain"]
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "usage": {
+      "type": "string",
+      "description": "How widely the term is used. core: widely recognized and documented. common: widely used in fandom. niche: fan-coined, less consistently used.",
+      "enum": ["core", "common", "niche"]
+    }
+  }
+}

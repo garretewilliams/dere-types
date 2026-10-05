@@ -1,0 +1,42 @@
+# Mayadere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/mayadere.md
+name: Mayadere
+category: dere-type
+definition: >-
+  A character archetype who begins as an antagonist, rival or dangerous figure and
+  becomes an ally or love interest after a turning point, while often retaining
+  an edge from their earlier role.
+core_traits:
+- initial hostility or danger
+- competence
+- independence
+- capacity for change
+- a lingering edge
+behavioral_patterns:
+- opposes or threatens the protagonist early on
+- changes allegiance after a turning point
+- keeps traits from their antagonistic past
+- may struggle with trust on both sides
+relationship_patterns:
+- the relationship changes after a turning point
+- affection develops from rivalry, conflict or a change of sides
+- the earlier conflict remains part of the relationship's history
+related_types:
+- tsundere
+- kuudere
+- sadodere
+common_misconceptions:
+- A mayadere stops being dangerous once they fall for someone.
+- Any reformed villain is a mayadere.
+- The term has a well-documented etymology.
+term_origin:
+  components:
+  - part: maya
+    meaning: unclear; fandom sources give conflicting explanations
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated
+  confidence: uncertain
+  note: This is a fan-coined term with no consistently documented derivation for
+    'maya'.
+usage: niche

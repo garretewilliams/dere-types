@@ -1,0 +1,22 @@
+name: Factual correction
+description: Correct an inaccurate definition, claim, etymology or reference.
+labels: ["correction"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page or file
+      placeholder: types/himedere.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is inaccurate?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Supporting source
+      description: A reference that supports the correction, where possible.

@@ -1,0 +1,10 @@
+name: Terminology clarification
+description: Questions about wording, translation, romanization or common usage.
+labels: ["terminology"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or clarification
+    validations:
+      required: true

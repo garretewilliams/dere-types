@@ -1,0 +1,42 @@
+# Kamidere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/kamidere.md
+name: Kamidere
+category: dere-type
+definition: >-
+  A character archetype characterized by god-like self-regard: a strong sense of
+  superiority, a desire for authority or control, and an expectation that others
+  recognize their importance.
+core_traits:
+- sense of superiority
+- ambition
+- desire for control
+- grand self-image
+- confidence bordering on arrogance
+behavioral_patterns:
+- speaks and acts as if their judgment is final
+- seeks authority over situations and people
+- dismisses challenges to their status
+- may reveal insecurity when their self-image is threatened
+relationship_patterns:
+- expects recognition, deference or loyalty
+- affection may be framed as granting favor
+- softening usually requires someone who is unimpressed yet loyal
+related_types:
+- himedere
+- oujidere
+- sadodere
+common_misconceptions:
+- A kamidere is literally a deity.
+- A kamidere is the same as a himedere.
+- A kamidere's arrogance means they cannot care about anyone.
+term_origin:
+  components:
+  - part: kami
+    japanese: 神 (kami)
+    meaning: god, deity
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated
+  confidence: commonly-cited
+  note: Refers to god-like attitude, not to literal divinity.
+usage: common

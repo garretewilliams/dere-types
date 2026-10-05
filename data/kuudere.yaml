@@ -1,0 +1,41 @@
+# Kuudere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/kuudere.md
+name: Kuudere
+category: dere-type
+definition: >-
+  A character archetype who appears calm, composed and emotionally reserved, and
+  whose affection is expressed in understated ways rather than through open display.
+core_traits:
+- composure
+- emotional restraint
+- level-headedness
+- dry or deadpan expression
+- quiet loyalty
+behavioral_patterns:
+- stays calm under pressure
+- speaks plainly and economically
+- shows care through actions rather than words
+- lets small, rare expressions of emotion carry weight
+relationship_patterns:
+- affection tends to be understated
+- 'trust shows in subtle changes: more openness, small gestures, rare candor'
+- does not undergo the dramatic switches typical of tsundere or yandere characters
+related_types:
+- dandere
+- tsundere
+- oujidere
+common_misconceptions:
+- A kuudere has no emotions.
+- A kuudere is cold because they dislike people.
+- Kuudere and dandere are the same type.
+japanese: クーデレ
+term_origin:
+  components:
+  - part: kuu
+    japanese: クール (kūru)
+    meaning: cool (loanword from English)
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated
+  confidence: established
+usage: core

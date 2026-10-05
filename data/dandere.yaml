@@ -1,0 +1,43 @@
+# Dandere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/dandere.md
+name: Dandere
+category: dere-type
+definition: >-
+  A character archetype who is quiet and socially reserved, often shy, and who becomes
+  more talkative and expressive with people they feel comfortable with.
+core_traits:
+- shyness
+- social reserve
+- quietness
+- attentiveness
+- warmth that is slow to show
+behavioral_patterns:
+- says little in groups or with strangers
+- may hesitate, trail off or avoid attention
+- is often observant and listens closely
+- opens up noticeably in comfortable one-to-one settings
+relationship_patterns:
+- opens up through comfort, patience and trust
+- the change from reserved to expressive is gradual
+- pressure or sudden attention can cause withdrawal
+related_types:
+- kuudere
+- deredere
+- tsundere
+common_misconceptions:
+- A dandere cannot or will not speak.
+- A dandere is emotionally cold.
+- Quietness means the character has nothing to say.
+term_origin:
+  components:
+  - part: dan
+    japanese: 黙り (danmari)
+    meaning: silence, keeping quiet
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated
+  confidence: commonly-cited
+  note: >-
+    The derivation from danmari is widely repeated but not well documented in reference
+    works.
+usage: core

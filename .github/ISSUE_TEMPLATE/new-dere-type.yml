@@ -1,0 +1,29 @@
+name: New dere type proposal
+description: Propose an archetype not currently included.
+labels: ["new-type"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Term
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: Proposed one-sentence definition
+    validations:
+      required: true
+  - type: textarea
+    id: distinct
+    attributes:
+      label: How is it distinct from existing types?
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: Evidence of usage
+      description: Sources showing the term is used with a reasonably consistent meaning. Mark what is established usage, fandom usage, or your own interpretation.
+    validations:
+      required: true

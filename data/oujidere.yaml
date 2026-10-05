@@ -1,0 +1,41 @@
+# Oujidere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/oujidere.md
+name: Oujidere
+category: dere-type
+definition: >-
+  A character archetype characterized by prince-like expectations: confidence, regal
+  or chivalrous self-presentation, and an expectation of respect and elevated treatment.
+core_traits:
+- confidence
+- regal self-presentation
+- pride
+- a sense of duty or chivalry
+- expectation of respect
+behavioral_patterns:
+- carries themselves with polish and composure
+- expects to be treated as important
+- may be gallant or protective in a performative way
+- is unsettled when their status is ignored
+relationship_patterns:
+- affection may be expressed through protection or grand gestures
+- becomes more genuine and less performative with trust
+- may struggle when a relationship requires equality rather than admiration
+related_types:
+- himedere
+- kamidere
+- kuudere
+common_misconceptions:
+- An oujidere is just a male himedere.
+- An oujidere is arrogant with no redeeming qualities.
+- Princely manners mean the character is insincere.
+term_origin:
+  components:
+  - part: ouji
+    japanese: 王子 (ōji)
+    meaning: prince
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated
+  confidence: commonly-cited
+  note: Less widely used than himedere; often described as its princely counterpart.
+usage: niche

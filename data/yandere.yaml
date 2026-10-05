@@ -1,0 +1,43 @@
+# Yandere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/yandere.md
+name: Yandere
+category: dere-type
+definition: >-
+  A character archetype whose affection for someone is intense and can become possessive
+  or obsessive, in fiction sometimes escalating to extreme or dangerous behavior.
+core_traits:
+- intense attachment
+- devotion that can become possessive
+- jealousy
+- a sweet or loving surface
+- willingness to cross boundaries for the object of affection
+behavioral_patterns:
+- shows extreme devotion and attentiveness
+- reacts strongly to perceived rivals or threats to the relationship
+- may switch abruptly between affectionate and menacing
+- rationalizes controlling behavior as love
+relationship_patterns:
+- attachment can become obsessive
+- the relationship is often the center of the character's world
+- >-
+  tension in stories usually comes from the gap between loving surface and dangerous
+  undercurrent
+related_types:
+- deredere
+- sadodere
+- tsundere
+common_misconceptions:
+- Every yandere is violent.
+- Yandere behavior is a model of romantic devotion.
+- The term is a diagnosis of a real psychological condition.
+japanese: ヤンデレ
+term_origin:
+  components:
+  - part: yan
+    japanese: 病んでる (yanderu)
+    meaning: to be sick, especially mentally or emotionally
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated
+  confidence: established
+usage: core

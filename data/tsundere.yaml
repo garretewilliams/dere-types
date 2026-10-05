@@ -1,0 +1,45 @@
+# Tsundere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/tsundere.md
+name: Tsundere
+category: dere-type
+definition: >-
+  A character archetype who initially presents as cold, irritable or dismissive
+  toward someone they care about, while gradually or intermittently revealing warmth
+  and affection.
+core_traits:
+- defensive pride
+- embarrassment about their own feelings
+- outward irritability
+- hidden warmth
+- difficulty admitting affection
+behavioral_patterns:
+- denies or deflects affection, especially when observed
+- masks care behind criticism, teasing or practical help
+- becomes flustered when their feelings are noticed
+- acts kindly when they believe it will go unacknowledged
+relationship_patterns:
+- affection emerges through conflict, vulnerability or shared experience
+- the gap between harsh exterior and warm interior narrows as trust grows
+- may revert to defensiveness when feeling exposed
+related_types:
+- kuudere
+- himedere
+- dandere
+common_misconceptions:
+- A tsundere is simply rude or mean.
+- A tsundere must be hostile in every interaction.
+- Tsundere behavior is an excuse for abuse within a relationship.
+japanese: ツンデレ
+term_origin:
+  components:
+  - part: tsun
+    japanese: ツンツン (tsun tsun)
+    meaning: aloof, standoffish, sulky
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated, fawning
+  confidence: established
+  note: >-
+    Both elements are Japanese ideophones. The term spread through Japanese visual
+    novel and anime fandom in the 2000s.
+usage: core

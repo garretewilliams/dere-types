@@ -1,0 +1,17 @@
+name: Schema improvement
+description: Propose a change to the machine-readable data structure.
+labels: ["schema"]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Use case
+      description: What would this enable? The schema stays simple unless there is a clear reason.
+    validations:
+      required: true

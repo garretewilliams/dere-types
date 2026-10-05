@@ -1,0 +1,42 @@
+# Himedere: machine-readable reference data. Schema: schema/dere-type.schema.json
+# Human-readable page: types/himedere.md
+name: Himedere
+category: dere-type
+definition: >-
+  A character archetype characterized by princess-like expectations, pride, authority,
+  and a desire for admiration or special treatment, who may reveal a softer side
+  toward people they trust.
+core_traits:
+- pride
+- authority
+- high standards
+- desire for admiration
+- expectation of special treatment
+behavioral_patterns:
+- expects respect and courtesy
+- may demand special treatment
+- reacts strongly to disrespect or public embarrassment
+- may hide vulnerability behind confidence
+relationship_patterns:
+- values sincere admiration and loyalty
+- may become warmer with trust while keeping their pride
+- may resist openly expressing vulnerability
+related_types:
+- oujidere
+- kamidere
+- tsundere
+common_misconceptions:
+- A himedere is simply a dominant character.
+- Every himedere is cruel or spoiled.
+- A himedere constantly announces that they are royalty.
+term_origin:
+  components:
+  - part: hime
+    japanese: 姫 (hime)
+    meaning: princess
+  - part: dere
+    japanese: デレデレ (dere dere)
+    meaning: lovey-dovey, infatuated
+  confidence: commonly-cited
+  note: The meaning of hime is established; the compound is fandom usage.
+usage: common
