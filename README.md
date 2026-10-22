@@ -219,3 +219,7 @@ Maintained by Garret E. Williams ([@garretewilliams](https://github.com/garretew
 ## License
 
 [MIT](LICENSE). The license covers all content in this repository: written reference pages, machine-readable data, schema and code. You may reuse the definitions and data, including commercially, with attribution as described in the license.
+
+## Readable PDF and archived versions
+
+A [PDF companion](23195714-documentation.pdf) is available for the archived v1.0.0 documentation. See [archive and version notes](ZENODO.md) and the [published Zenodo version](https://zenodo.org/records/23555520). This documentation update adds no benchmark results or new software-release claim.
